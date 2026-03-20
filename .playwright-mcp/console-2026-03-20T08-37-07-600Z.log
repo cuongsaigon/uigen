@@ -1,0 +1,48 @@
+[ 1091084ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[ 1091683ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[ 1686540ms] [ERROR] Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES @ http://localhost:3000/?_rsc=fsnpp:0
+[ 1686570ms] [ERROR] Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. TypeError: Failed to fetch
+    at createFetch (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:2091:33)
+    at fetchServerResponse (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:2014:27)
+    at hmrRefreshReducerImpl (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:8771:67)
+    at clientReducer (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:9195:65)
+    at Object.action (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:9391:55)
+    at runAction (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:9301:38)
+    at dispatchAction (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:9355:9)
+    at Object.dispatch (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:9389:40)
+    at http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:1409:29
+    at startTransition (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4904:31)
+    at dispatch (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:1408:13)
+    at dispatchAppRouterAction (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:1392:5)
+    at http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:9512:61
+    at exports.startTransition (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_5150ccfd._.js:1662:31)
+    at Object.hmrRefresh (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:9511:40)
+    at http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:6295:28
+    at exports.startTransition (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_5150ccfd._.js:1662:31)
+    at processMessage (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:6294:44)
+    at WebSocket.handler (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:6374:17) @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[ 1693133ms] [ERROR] Failed to load resource: net::ERR_INCOMPLETE_CHUNKED_ENCODING @ http://localhost:3000/:0
+[ 1695319ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__0f0ba101._.css:0
+[ 1695428ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_57d40746._.js:0
+[ 1695450ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:0
+[ 1695451ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_next-devtools_index_a9cb0712.js:0
+[ 1695451ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_5150ccfd._.js:0
+[ 1695452ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:0
+[ 1697713ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:0
+[ 1697822ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_%40swc_helpers_cjs_b3dc30d6._.js:0
+[ 1697823ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/_a0ff3932._.js:0
+[ 1697824ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/turbopack-_cdba956c._.js:0
+[ 1697824ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_8db7fb1f._.js:0
+[ 1697824ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/src_app_favicon_ico_mjs_243aa161._.js:0
+[ 1700025ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/src_app_layout_tsx_0a548d63._.js:0
+[ 1700135ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_components_builtin_global-error_f8fdd2d5.js:0
+[ 1700136ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/src_6ed0a69b._.js:0
+[ 1700136ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_tailwind-merge_dist_bundle-mjs_mjs_56b6fd65._.js:0
+[ 1700136ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_zod_dist_esm_03671b45._.js:0
+[ 1700137ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_micromark-core-commonmark_dev_lib_fc41dd51._.js:0
+[ 1702384ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_%40babel_standalone_babel_de28aa25.js:0
+[ 1702458ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_%40ai-sdk_deecaf6b._.js:0
+[ 1702458ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_%40radix-ui_c11a9856._.js:0
+[ 1702460ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_%40floating-ui_1b6e7b6d._.js:0
+[ 1702460ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_cc098ecb._.js:0
+[ 1702461ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/src_app_page_tsx_f8fdd2d5._.js:0
